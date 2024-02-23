@@ -13,5 +13,7 @@
     "uuidv4": "^6.2.13",
     "ws": "^8.15.1"
   },
-  "type": "module"
+  "type": "module",
+  "name": "",
+  "version": ""
 }
