@@ -5,16 +5,17 @@
   "engines": {
     "node": "13.1.0"
   },
-  "repository": { 
-    "type": "git", 
-    "url": "https://github.com/MoriArchi/moriarchi-boilerplate-backend-test1.git" 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoriArchi/moriarchi-boilerplate-backend-test1.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org"
   },
   "scripts": {
     "app:start": "node app.js",
-    "server:start": "node server.js"
+    "server:start": "node server.js",
+    "start": "node server.js"
   },
   "dependencies": {
     "axios": "^1.6.2",
@@ -26,5 +27,13 @@
     "uuidv4": "^6.2.13",
     "ws": "^8.15.1"
   },
-  "type": "module"
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/MoriArchi/moriarchi-boilerplate-backend-test1/issues"
+  },
+  "homepage": "https://github.com/MoriArchi/moriarchi-boilerplate-backend-test1#readme",
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "mor1arch1",
+  "license": "ISC"
 }
