@@ -1,4 +1,17 @@
 {
+  "name": "@moriarchi/test",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "13.1.0"
+  },
+  "repository": { 
+    "type": "git", 
+    "url": "https://github.com/MoriArchi/moriarchi-boilerplate-backend-test1.git" 
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "app:start": "node app.js",
     "server:start": "node server.js"
@@ -13,7 +26,5 @@
     "uuidv4": "^6.2.13",
     "ws": "^8.15.1"
   },
-  "type": "module",
-  "name": "",
-  "version": ""
+  "type": "module"
 }
