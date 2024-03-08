@@ -31,7 +31,7 @@ app.post('/api/auth', signToken, (req, res) => {
     res.json(req.data)
 })
 
-//server listeners starts
+//server listeners starts NOW
 app.listen(config.CLIENT_PORT, () => {
     console.log(`App is running on http://localhost:${config.CLIENT_PORT}`);
 })
