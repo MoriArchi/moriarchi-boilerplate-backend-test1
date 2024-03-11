@@ -1,7 +1,7 @@
 {
   "name": "@moriarchi/test",
   "description": "a really cool app",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "engines": {
     "node": "13.1.0"
   },
